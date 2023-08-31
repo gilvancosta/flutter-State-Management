@@ -6,6 +6,7 @@ import 'core/utls/app_routes.dart';
 import 'pages/bloc_pattern/bloc_pattern_page.dart';
 import 'pages/change_notifier/change_notifier_page.dart';
 import 'pages/home/home_page.dart';
+import 'pages/set_state02/set_state02_page.dart';
 import 'pages/set_state/set_state_page.dart';
 import 'pages/value_notifer/value_notifer_page.dart';
 
@@ -31,7 +32,7 @@ class _MyAppState extends State<MyApp> {
       routes: {
         AppRoutes.home: (ctx) => HomePageApp(title: widget.title),
         '/setstate_page': (_) => const SetStatePage(),
-        // '/imc_calculator': (_) => const ImcCalculatorPage(),
+        '/setstate02_page': (_) => const SetState02Page(),
         '/value_notifer_page': (_) => const ValueNotifierPage(),
        '/change_notifier_page': (_) => const ImgChangeNotifierPage(),
       '/imc_bloc_pattern_page': (_) => const ImcBlocPatternPage(),

@@ -37,7 +37,12 @@ class _TabsScreenState extends State<HomePageApp> {
               onPressed: () {
                 Navigator.pushNamed(context, '/setstate_page');
               },
-              child: const Text("setState")),
+              child: const Text("setState 1")),
+          ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/setstate02_page');
+              },
+              child: const Text("setState 2")),
           ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/value_notifer_page');
